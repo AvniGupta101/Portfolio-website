@@ -1,12 +1,20 @@
+<<<<<<< HEAD
 # 🚀 Avni Gupta's Portfolio
 
 A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — showcasing full-stack development, AI/ML, and IoT projects.
 
 ![Portfolio Preview](https://github.com/AvniGupta101/Portfolio-Avni/assets/coding-pov.png)
+=======
+# 🌐 Avni Gupta — Portfolio Website
+
+Welcome to my personal portfolio website!  
+This site showcases my projects, skills, and achievements — designed to reflect both my technical experience and creative work.
+>>>>>>> 7fc5ab820c74d0651b952c08981a7534638963b4
 
 ---
 
 ## ✨ Features
+<<<<<<< HEAD
 
 - 🔥 3D visuals powered by **React Three Fiber** and **Drei**
 - ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
@@ -231,3 +239,26 @@ Give a ⭐️ if this project helped you!
 ---
 
 Made with ❤️ by [Avni Gupta](https://github.com/AvniGupta101)
+=======
+- 🎨 Modern and responsive design
+- ⚡ Built with fast and lightweight technologies
+- 🧑‍💻 Showcases projects, skills, and contact information
+- 🚀 Deployed seamlessly on [Vercel](https://vercel.com)
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (or React / Next.js)
+- **Styling:** Tailwind CSS / CSS Modules / Styled Components
+- **Deployment:** [Vercel](https://vercel.com)
+- **Version Control:** Git & GitHub
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone this repository
+```bash
+git clone https://github.com/avni-gupta/portfolio.git
+cd portfolio
+>>>>>>> 7fc5ab820c74d0651b952c08981a7534638963b4
