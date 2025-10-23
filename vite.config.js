@@ -5,23 +5,24 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.NODE_ENV === 'production' ? "/Portfolio-Avni/" : "/",
+  // Use relative paths so built HTML references ./assets/... instead of absolute /Portfolio-Avni/...
+  base: "./",
   build: {
-    outDir: 'dist',
+    outDir: "dist",
     sourcemap: false,
-    minify: 'esbuild',
+    minify: "esbuild",
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom'],
-          three: ['three', '@react-three/fiber', '@react-three/drei'],
-          motion: ['motion/react']
-        }
-      }
-    }
+          vendor: ["react", "react-dom"],
+          three: ["three", "@react-three/fiber", "@react-three/drei"],
+          motion: ["motion/react"],
+        },
+      },
+    },
   },
   server: {
     port: 3000,
-    open: true
-  }
+    open: true,
+  },
 });
